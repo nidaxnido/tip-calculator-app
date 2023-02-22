@@ -12,6 +12,9 @@ const theme =extendTheme({
       paleGreyCyan : "hsl(189, 41%, 97%)",
       white: "White: hsl(0, 0%, 100%)",
     }
+  },
+  breakpoints :{
+    sm: '376px'    
   }
 })
 export default function App({ Component, pageProps }) {

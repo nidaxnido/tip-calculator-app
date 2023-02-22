@@ -39,7 +39,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={space.className}>
+      <main className={space.className} >
         <Box w='100vw' h='100vh' bg='brand.liteGreyCyan'>
           <Center h='25vh' color='brand.darkCyan' letterSpacing={15}>
             <VStack>
